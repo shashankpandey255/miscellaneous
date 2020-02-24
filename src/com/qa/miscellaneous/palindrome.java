@@ -2,6 +2,7 @@ package com.qa.miscellaneous;
 
 public class palindrome {
 	public void checkPalindrome(String S) {
+		String Name;
 		int len=S.length();
 		int mid=(len-1)/2;
 		if(len%2==0) 
