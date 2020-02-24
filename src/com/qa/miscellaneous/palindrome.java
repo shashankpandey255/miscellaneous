@@ -1,6 +1,7 @@
 package com.qa.miscellaneous;
 
 public class palindrome {
+	public int num;
 	public void checkPalindrome(String S) {
 		int len=S.length();
 		int mid=(len-1)/2;
